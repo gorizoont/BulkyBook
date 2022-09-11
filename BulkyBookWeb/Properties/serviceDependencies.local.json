@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "secrets1": {
+      "type": "secrets.user"
+    },
+    "mssql3": {
+      "ignored": "true",
+      "type": "mssql",
+      "connectionId": "ConnectionStrings:DefaultConnection"
+    },
+    "mssql1": {
+      "ignored": "True",
+      "type": "mssql",
+      "connectionId": "ConnectionStrings:Connection"
+    }
+  }
+}
