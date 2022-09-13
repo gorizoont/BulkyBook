@@ -3,17 +3,15 @@
     "secrets1": {
       "type": "secrets.user"
     },
+    "mssql3": {
+      "ignored": "true",
+      "type": "mssql",
+      "connectionId": "ConnectionStrings:DefaultConnection"
+    },
     "mssql1": {
       "ignored": "True",
       "type": "mssql",
       "connectionId": "ConnectionStrings:Connection"
-    },
-    "mssql3": {
-      "secretStore": "LocalSecretsFile",
-      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/gorizontail/databases/sql",
-      "type": "mssql.azure",
-      "connectionId": "ConnectionStrings:DefaultConnection",
-      "dynamicId": null
     }
   }
 }
